@@ -3,7 +3,7 @@ import React from 'react'
 const StudentArea = () => {
   return (
     <div className="grid grid-cols-12 my-4 ">
-      <div className="md:col-span-3  sm:col-span-full p-2 flex justify-center">
+      <div className="md:col-span-3  col-span-full p-2 flex justify-center">
         <div className='w-10/12    border-gray-800 border bottom-3 rounded-lg'>
           <div className='flex justify-center'>
             <div className='w-7/12 my-4'>
@@ -26,7 +26,7 @@ const StudentArea = () => {
 
         </div>
       </div>
-      <div className="md:col-span-9 sm:col-span-full p-2 flex justify-center">
+      <div className="md:col-span-9 col-span-full p-2 flex justify-center">
 
         <table className='w-10/12   border-gray-800 border bottom-3 rounded-lg'>
           <thead className='border-gray-800 border  p-3'>

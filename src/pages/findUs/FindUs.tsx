@@ -3,7 +3,7 @@ import React from 'react'
 export const FindUs = () => {
     return (
         <div className="grid grid-cols-12 my-4 ">
-            <div className='md:col-span-6  sm:col-span-full'>
+            <div className='md:col-span-6  col-span-full'>
                 <div className='flex justify-center '>
                     <div className='w-10/12 p-4  border-gray-800 border bottom-3 rounded-lg  my-3'>
                         <div className='flex justify-center my-3'>
@@ -25,7 +25,7 @@ export const FindUs = () => {
             </div>
 
 
-            <div className='md:col-span-6  sm:col-span-full'>
+            <div className='md:col-span-6  col-span-full'>
                 <div className='flex justify-center  '>
                     <div className='w-10/12  p-4  border-gray-800 border bottom-3 rounded-lg  my-3'>
                         <div className='flex justify-center my-3'>

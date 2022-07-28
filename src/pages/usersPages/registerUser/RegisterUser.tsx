@@ -6,7 +6,7 @@ const RegisterUser = () => {
   return (
     <div className='flex justify-center items-center h-screen  w-full'>
 
-      <div className='w-5/6     border-gray-800 border bottom-3 rounded-lg p-4'>
+      <div className='w-5/6  md-m-0 m-4  border-gray-800 border bottom-3 rounded-lg p-4'>
 
         <div className='my-3'>
 
@@ -15,7 +15,7 @@ const RegisterUser = () => {
 
         <div className='flex justify-start'>
 
-          <div className='md:w-3/6 sm:w-full px-1'>
+          <div className='md:w-3/6 w-full px-1'>
 
 
             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -49,7 +49,7 @@ const RegisterUser = () => {
               <Form.Check type="checkbox" label="Check me out" />
             </Form.Group>
           </div>
-          <div className='md:w-3/6 sx:w-full px-1'>
+          <div className='md:w-3/6 w-full px-1'>
 
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>

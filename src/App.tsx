@@ -15,9 +15,11 @@ function App() {
    
       <Routes>
 
-        <Route path="/" element={<FindUs />} />
+        <Route path="/" element={<Home/>} />
 
         <Route path="/login" element={<Login />} />
+
+        <Route path="/home" element={<Home />} />
 
         <Route path="/contentArea" element={<ContentArea />} />
 
@@ -25,7 +27,7 @@ function App() {
 
         <Route path="/studentArea" element={<StudentArea />} />
 
-        <Route path="/studentArea" element={<FindUs />} />
+        <Route path="/findus" element={<FindUs />} />
 
       </Routes>
     

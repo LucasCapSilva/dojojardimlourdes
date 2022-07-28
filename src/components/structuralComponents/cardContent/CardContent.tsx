@@ -17,7 +17,7 @@ const CardContent = () => {
           cardItens.map((item, index) => {
 
             return(
-              <div className='lg:w-1/4 lg:h-1/4 p-2 m-2 border-gray-800 border bottom-3 rounded-lg'>
+              <div className='md:w-1/4 md:h-1/4 w-full p-2 m-2 border-gray-800 border bottom-3 rounded-lg'>
               <div className='flex justify-center'>
                 <h4 className='text-2xl'>{item.title}</h4>
               </div>

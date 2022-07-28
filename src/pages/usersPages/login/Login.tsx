@@ -7,7 +7,7 @@ const Login = () => {
     <>
       <div className='flex justify-center items-center h-screen  w-full '>
 
-        <div className='md:w-1/4 sm:w-full  border-gray-800 border bottom-3 rounded-lg px-4 py-10'>
+        <div className='md:w-1/4 w-full  md:mx-0 mx-3  border-gray-800 border bottom-3 rounded-lg px-4 py-10'>
 
           <div className='my-1 flex justify-center'>
 

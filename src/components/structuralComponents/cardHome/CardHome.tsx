@@ -2,8 +2,8 @@ import React from 'react'
 
 const CardHome = () => {
   return (
-    <div className="flex ... ">
-      <div className='w-1/2   m-2 border-gray-700 border bottom-2 rounded-lg'>
+    <div className="md:flex md:justify-center">
+      <div className='md:w-1/2 w-full md:mx-2  mx-0 my-2 border-gray-700 border bottom-2 rounded-lg'>
         <div className='flex justify-center m-2'>
           <h4 className='text-2xl'>Title 1</h4>
         </div>
@@ -25,7 +25,7 @@ const CardHome = () => {
       </div>
 
 
-      <div className='w-1/2   m-2 border-gray-700 border bottom-2 rounded-lg'>
+      <div className='md:w-1/2 w-full md:mx-2  mx-0 my-2 border-gray-700 border bottom-2 rounded-lg'>
         <div className='flex justify-center m-2'>
           <h4 className='text-2xl'>Title 2</h4>
         </div>
